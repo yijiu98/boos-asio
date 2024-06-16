@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package tutorial;
+
+// 导入 person.proto
+import "person.proto";
+
+message AddressBook {
+  repeated Person people = 1;
+}
